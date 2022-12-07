@@ -1,0 +1,96 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.logo{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#hero {
+  background-image: url('images/Main.jpeg');
+  background-repeat: no-repeat;
+  background-color: #192a56;
+  background-size: cover;
+  height:70vh
+}
+
+ #whyus2 {
+  background-image: url('images/Main2.jpeg');
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  height:70vh
+} 
+
+.title{
+
+  
+      font-size: 50px;
+      line-height: 38px;
+color: red;
+
+      font-family: 'Dancing Script', cursive;
+
+}
+#rtravel,.cr{
+  background-color: #192a56;
+}
+
+
+
+/* swiper csss start */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#testo{
+  width: 200px;
+  height: 200px;
+
+}
+
+/* swiper csss end  */
+/* font-family: 'Caveat', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Roboto', sans-serif;*/
